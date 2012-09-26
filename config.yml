@@ -1,7 +1,7 @@
 # URL of the API reference table of contents
 # check out if you have the latest version url here:
 # http://cloud.mindtouch.us/CloudStack_Documentation/API_Reference%3A_CloudStack
-api_ref_toc_url: http://download.cloud.com/releases/3.0.0/api_3.0.0/TOC_Root_Admin.html
+api_ref_toc_url: http://127.0.0.1/cloudstack/TOC_Root_Admin.html
 
 # Language for generated code (supported: php, python)
 language: php
@@ -35,10 +35,12 @@ camel_case:
     bits: bits
     bootable: bootable
     broadcastdomainrange: broadcastDomainRange
+    canusefordeploy: canUseForDeploy
     category: category
     certificate: certificate
     changecidr: changeCidr
     checksum: checksum
+    cidr: cidr
     cidrlist: cidrList
     cleanup: cleanup
     clusterid: clusterId
@@ -48,6 +50,7 @@ camel_case:
     conservemode: conserveMode
     cpunumber: cpuNumber
     cpuspeed: cpuSpeed
+    customer: customer
     customized: customized
     description: description
     destinationphysicalnetworkid: destinationPhysicalNetworkId
@@ -66,6 +69,7 @@ camel_case:
     domainid: domainId
     domainId: domainId
     domainsuffix: domainSuffix
+    dpd: dpd
     duration: duration
     email: email
     enabled: enabled
@@ -73,6 +77,8 @@ camel_case:
     endip: endIp
     endport: endPort
     entrytime: entryTime
+    esplifetime: espLifetime
+    esppolicy: espPolicy
     fetchlatest: fetchLatest
     fingerprint: fingerprint
     firstname: firstName
@@ -81,14 +87,17 @@ camel_case:
     forloadbalancing: forLoadBalancing
     format: format
     forvirtualnetwork: forVirtualNetwork
+    forvpc: forVpc
     fwdevicecapacity: fwDeviceCapacity
     fwdeviceid: fwDeviceId
     gateway: gateway
+    gatewayid: gatewayid
     group: group
     groupid: groupId
     guestcidraddress: guestCidrAddress
     guestiptype: guestIpType
     haenable: haEnable
+    hahost: haHost
     hostid: hostId
     hostname: hostName
     hosttags: hostTags
@@ -96,7 +105,10 @@ camel_case:
     icmpcode: icmpCode
     icmptype: icmpType
     id: id
+    idr: idr
     ids: ids
+    ikelifetime: ikeLifetime
+    ikepolicy: ikePolicy
     inline: inline
     instance: instance
     intervaltype: intervalType
@@ -105,6 +117,7 @@ camel_case:
     ipaddress: ipAddress
     ipaddressid: ipAddressId
     iprange: ipRange
+    ipsecpsk: ipSecpsk
     iptonetworklist: ipToNetworkList
     iqn: iqn
     iscleanuprequired: isCleanUpRequired
@@ -112,6 +125,7 @@ camel_case:
     isextractable: isExtractable
     isfeatured: isFeatured
     isofilter: isoFilter
+    isoid: isoid
     isolationmethods: isolationMethods
     ispublic: isPublic
     isready: isReady
@@ -135,6 +149,7 @@ camel_case:
     level: level
     limitcpuuse: limitCpuUse
     listall: listAll
+    localstorageenabled: localStorageEnabled
     lock: lock
     managedstate: managedState
     max: max
@@ -159,6 +174,7 @@ camel_case:
     offerha: offerHa
     op: op
     openfirewall: openFirewall
+    orvpc: orvpc
     oscategoryid: osCategoryId
     ostypeid: osTypeId
     page: page
@@ -168,6 +184,8 @@ camel_case:
     password: password
     passwordenabled: passwordEnabled
     path: path
+    pcid: pcid
+    pcofferingid: pcofferingid
     physicalnetworkid: physicalNetworkId
     podid: podId
     policyid: policyId
@@ -186,6 +204,8 @@ camel_case:
     publicport: publicPort
     queryfilter: queryFilter
     requireshvm: requireShvm
+    resourceid: resourceid
+    resourceids: resourceids
     resourcestate: resourceState
     resourcetype: resourceType
     restartrequired: restartRequired
@@ -219,12 +239,15 @@ camel_case:
     startdate: startDate
     startip: startIp
     startport: startPort
+    startvm: startvm
     state: state
     storageid: storageId
     storagetype: storageType
     subdomainaccess: subdomainAccess
     supportedservices: supportedServices
     systemvmtype: systemVmType
+    s2scustomergatewayid: s2scustomergatewayid
+    s2svpngatewayid: s2svpngatewayid
     tags: tags
     templatefilter: templateFilter
     templateid: templateId
@@ -248,7 +271,12 @@ camel_case:
     vlan: vlan
     vlanid: vlanId
     vmwarenetworklabel: vmwareNetworkLabel
+    vsmipaddress: vsmIpAddress
+    vsmpassword: vsmPassword
+    vsmusername: vsmUsername
     volumeid: volumeId
     volumename: volumeName
+    vpcid: vpcId
+    vpcofferingid: vpcOfferingId
     xennetworklabel: xenNetworkLabel
     zoneid: zoneId
